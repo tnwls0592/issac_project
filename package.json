@@ -2,13 +2,22 @@
   "name": "issac_toast",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://tnwls0592.github.io/issac_project/",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "core-js": "^3.8.3",
+    "sass": "^1.78.0",
+    "sass-loader": "^16.0.1",
+    "scss": "^0.2.4",
+    "scss-loader": "^0.0.1",
+    "swiper": "^11.1.12",
     "vue": "^3.2.13"
   },
   "devDependencies": {

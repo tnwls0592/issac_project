@@ -1,0 +1,298 @@
+@font-face {
+  font-family: 'PartialSansKR-Regular';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/PartialSansKR-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LOTTERIACHAB';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/LOTTERIACHAB.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TTLaundryGothicB';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/TTLaundryGothicB.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TTWanjudaedunsancheB';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/TTWanjudaedunsancheB.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Cafe24Ohsquare';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Cafe24Ohsquare.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: '양진체';
+  src: url('https://fastly.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+#wrap {
+  position: relative;
+  top: -115px; left: 0;
+  .inner {
+    .swiper {
+      .swiper-slide {
+        img {
+          margin-right: 10px;
+          height: 1034px;
+        }
+        .swiper-button-prev::after {
+          color: #ff281e;
+        }
+        .text01 {
+          position: absolute;
+          top: 350px; left: 300px;
+          color: #ff281e;
+          h1 {
+            font-size: 30px;
+            font-weight: 700;
+          }
+          h2 {
+            font-family: 'PartialSansKR-Regular';
+            font-size: 75px;
+            padding: 25px 0;
+          }
+          p {
+            font-size: 22px;
+            font-weight: 700;
+          }
+        }
+        .text02 {
+          position: absolute;
+          top: 350px; left: 300px;
+          color: #fff;
+          h1 {
+            font-size: 30px;
+            font-weight: 700;
+          }
+          h2 {
+            font-family: 'LOTTERIACHAB';
+            font-size: 85px;
+            padding: 25px 0;
+          }
+          p {
+            font-size: 22px;
+            font-weight: 700;
+          }
+        }
+        .text03 {
+          position: absolute;
+          top: 350px; left: 300px;
+          color: rgb(48, 25, 0);
+          h1 {
+            font-size: 30px;
+            font-weight: 700;
+          }
+          h2 {
+            font-family: 'TTLaundryGothicB';
+            font-size: 85px;
+            padding: 25px 0;
+          }
+        }
+        .text04 {
+          position: absolute;
+          top: 350px; left: 300px;
+          color: #fff;
+          h1 {
+            font-size: 30px;
+            font-weight: 700;
+          }
+          h2 {
+            font-family: 'TTWanjudaedunsancheB';
+            font-size: 85px;
+            padding: 25px 0;
+          }
+          p {
+            font-size: 22px;
+            font-weight: 700;
+          }
+        }
+        .text05 {
+          position: absolute;
+          top: 350px; left: 300px;
+          color: #013c66;
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          h1 {
+            font-size: 30px;
+            font-weight: 700;
+            text-align: center;
+          }
+          h2 {
+            font-family: 'Cafe24Ohsquare';
+            font-size: 85px;
+            padding: 25px 0;
+          }
+          p {
+            font-size: 22px;
+            font-weight: 700;
+            text-align: center;
+            background: #013c66;
+            color: #fff;
+            width: 100px;
+            height: 50px;
+            border-radius: 100%;
+            line-height: 50px;
+            
+          }
+        }
+        .text06 {
+          position: absolute;
+          top: 350px; left: 300px;
+          color: #fff;
+          h1 {
+            font-size: 35px;
+            font-weight: 700;
+          }
+          h2 {
+            margin-top: 10px;
+            font-family: '양진체';
+            font-size: 85px;
+            padding: 25px 0;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width:767px){
+  #wrap {
+  position: relative;
+  top: -115px; left: 0;
+  .inner {
+    .swiper {
+      .swiper-slide {
+        img {
+          margin-right: 10px;
+          height: 1034px;
+        }
+        .swiper-button-prev::after {
+          color: #ff281e;
+        }
+        .text01 {
+          position: absolute;
+          top: 350px; left: 300px;
+          color: #ff281e;
+          h1 {
+            font-size: 30px;
+            font-weight: 700;
+          }
+          h2 {
+            font-family: 'PartialSansKR-Regular';
+            font-size: 75px;
+            padding: 25px 0;
+          }
+          p {
+            font-size: 22px;
+            font-weight: 700;
+          }
+        }
+        .text02 {
+          position: absolute;
+          top: 350px; left: 300px;
+          color: #fff;
+          h1 {
+            font-size: 30px;
+            font-weight: 700;
+          }
+          h2 {
+            font-family: 'LOTTERIACHAB';
+            font-size: 85px;
+            padding: 25px 0;
+          }
+          p {
+            font-size: 22px;
+            font-weight: 700;
+          }
+        }
+        .text03 {
+          position: absolute;
+          top: 350px; left: 300px;
+          color: rgb(48, 25, 0);
+          h1 {
+            font-size: 30px;
+            font-weight: 700;
+          }
+          h2 {
+            font-family: 'TTLaundryGothicB';
+            font-size: 85px;
+            padding: 25px 0;
+          }
+        }
+        .text04 {
+          position: absolute;
+          top: 350px; left: 300px;
+          color: #fff;
+          h1 {
+            font-size: 30px;
+            font-weight: 700;
+          }
+          h2 {
+            font-family: 'TTWanjudaedunsancheB';
+            font-size: 85px;
+            padding: 25px 0;
+          }
+          p {
+            font-size: 22px;
+            font-weight: 700;
+          }
+        }
+        .text05 {
+          position: absolute;
+          top: 350px; left: 300px;
+          color: #013c66;
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          h1 {
+            font-size: 30px;
+            font-weight: 700;
+            text-align: center;
+          }
+          h2 {
+            font-family: 'Cafe24Ohsquare';
+            font-size: 85px;
+            padding: 25px 0;
+          }
+          p {
+            font-size: 22px;
+            font-weight: 700;
+            text-align: center;
+            background: #013c66;
+            color: #fff;
+            width: 100px;
+            height: 50px;
+            border-radius: 100%;
+            line-height: 50px;
+            
+          }
+        }
+        .text06 {
+          position: absolute;
+          top: 350px; left: 300px;
+          color: #fff;
+          h1 {
+            font-size: 35px;
+            font-weight: 700;
+          }
+          h2 {
+            margin-top: 10px;
+            font-family: '양진체';
+            font-size: 85px;
+            padding: 25px 0;
+          }
+        }
+      }
+    }
+  }
+}
+}
